@@ -1,0 +1,71 @@
+.background-color {
+  background-color: rgb(6, 48, 62);
+}
+
+.text-color {
+  background: linear-gradient(45deg, #ff0000, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  text-align: center;
+}
+
+.image-alterations {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 60%;
+  margin: 0 auto;
+}
+.table-design {
+  display: flex;
+  align-items: center;
+}
+table {
+  width: 40%; /* Adjust table width */
+  border-collapse: collapse; /* Optional: remove space between cells */
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  text-align: center; /* Center align the content in the cell */
+  padding: 10px; /* Optional: add some padding */
+  display: auto;
+  color: gray;
+  text-decoration: none; /* Remove underline */
+  border: 10px rgba(31, 30, 30, 0.5);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 22px;
+}
+
+td :hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.table-image {
+  max-width: 15%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  padding: 10px;
+  border-radius: 10px;
+}
+.table-link:hover {
+  opacity: 0.7;
+  /* background-color: rgb(255, 255, 255, 0.1); */
+}
+.text-changes {
+  padding: 10px;
+  border-radius: 10px;
+  color: gray;
+  text-decoration: none;
+}
+.text-changes :hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+#Text-overwrite {
+  text-decoration: none;
+}
