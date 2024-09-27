@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "../../Getting started/Test New"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "c13-flexbox",
+    "liveServer.settings.port": 5501
+  }
+}
